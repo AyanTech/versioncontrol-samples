@@ -12,6 +12,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+
+        // TODO: (1) Add jitpack maven repository.
+        maven { url 'https://jitpack.io' }
     }
 }
 
